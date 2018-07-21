@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>护工主页</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        header{
+            background-color: darkturquoise;
+            color: white;
+            font-size: 1rem;
+        }
+        .top1 img{
+            width: 10px;
+            float: left;
+            padding: 10px;
+        }
+        .top2{
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+        }
+        .background{
+            background: url(".idea/background.png") no-repeat;
+            -webkit-background-size:100%;
+            width: 100%;
+            height: 150px;
+        }
+        .head img{
+            width: 80px;
+            margin: 35px 20px;
+            float: left;
+        }
+        .name{
+            padding-top: 50px;
+            color: white;
+        }
+        .address{
+            color: white;
+            font-size: 0.8rem;
+        }
+        .address img{
+            width: 12px;
+            padding-top: 5px;
+        }
+        .title{
+            font-size: 0.9rem;
+            margin:25px 0 25px 15px;
+            padding-left: 10px;
+            border-left: darkturquoise solid 4px;
+        }
+        .live img{
+            width: 15px;
+        }
+        .live{
+            float: left;
+            font-size: 0.8rem;
+            padding-left: 25px;
+            margin-right:10px ;
+        }
+        .dinner img{
+            width: 15px;
+        }
+        .dinner{
+            font-size: 0.8rem;
+            padding-left: 25px;
+        }
+        .welfare{
+            margin:25px 0 25px 0;
+        }
+        .years{
+            float: left;
+            font-size: 0.8rem;
+            padding: 5px 15px 5px 25px;
+            border-right: grey solid 2px;
+            color: grey;
+            margin-right: 15px;
+        }
+        .number{
+            font-size: 0.8rem;
+            padding: 5px 0 5px 0;
+        }
+        .YearsNumber{
+            margin: 20px 0 20px 0;
+        }
+        .works{
+            float: left;
+            font-size: 0.8rem;
+            padding: 5px 15px 5px 25px;
+            border-right: grey solid 2px;
+            color: grey;
+            margin-right: 15px;
+        }
+        .times{
+            font-size: 0.8rem;
+            padding: 5px 0 5px 0;
+        }
+        .WorkTime{
+            margin: 20px 0 20px 0;
+        }
+        .service{
+            float: left;
+            font-size: 0.8rem;
+            padding: 5px 15px 5px 25px;
+            border-right: grey solid 2px;
+            color: grey;
+            margin-right: 15px;
+        }
+        .price{
+            font-size: 0.8rem;
+            padding: 5px 0 5px 0;
+            color: red;
+        }
+        .ServicePrice{
+            margin: 20px 0 20px 0;
+        }
+        .myself{
+            padding: 5px 15px 5px 25px;
+            font-size: 0.8rem;
+            border-right: grey solid 2px;
+            color: grey;
+            margin-right: 15px;
+        }
+        .introduction{
+            padding: 5px 0 5px 0;
+            flex: 1;
+            font-size: 0.8rem;
+        }
+        .SelfIntroduction{
+            margin: 20px 0 20px 0;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+        }
+        footer{
+            position:fixed;
+            bottom: 0;
+            left: 0;
+            height: 10%;
+            width: 100%;
+            background-color: white;
+        }
+        .bottom1{
+            position: fixed;
+            bottom: 1%;
+            left: 2%;
+            text-align: center;
+            width: 45%;
+            height: 8%;
+            background-color: white;
+            color: darkturquoise;
+            font-size: 1rem;
+            border: darkturquoise solid 2px;
+            border-radius: 5px;
+        }
+        .bottom2{
+            position: fixed;
+            bottom: 1%;
+            right: 2%;
+            text-align: center;
+            width: 45%;
+            height: 8%;
+            background-color: darkturquoise;
+            color: white;
+            font-size: 1rem;
+            border: darkturquoise solid 2px;
+            border-radius: 5px;
+        }
+        .FOOTER{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="top1"><img src=".idea/back.png"></div>
+    <div class="top2">个人主页</div>
+</header>
+    <div class="background">
+        <div class="head"><img src=".idea/tx.png"></div>
+        <div class="name">徐士林 55岁</div>
+        <div class="address"><img src=".idea/dw.png"> 京城 • 四方 • 报纸林</div>
+    </div>
+    <dl>
+        <dt>
+            <div class="title">专业技能</div><hr>
+        </dt>
+        <dt>
+            <div class="welfare">
+                <div class="live"><img src=".idea/wjx.png"> 住家</div>
+                <div class="dinner"><img src=".idea/wjx.png"> 不含餐</div>
+            </div><hr>
+        </dt>
+        <dt>
+            <div class="YearsNumber">
+                <div class="years">从业年限</div>
+                <div class="number">0-3年</div>
+            </div><hr>
+        </dt>
+        <dt>
+            <div class="WorkTime">
+                <div class="works">工作时间</div>
+                <div class="times">全天</div>
+            </div><hr>
+        </dt>
+        <dt>
+            <div class="ServicePrice">
+                <div class="service">服务价格</div>
+                <div class="price">25元/小时</div>
+            </div><hr>
+        </dt>
+        <dt>
+            <div class="SelfIntroduction">
+                <div class="myself">自我介绍</div>
+                <div class="introduction">可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，
+                    可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，可以洗衣做饭照顾老人，
+                </div>
+            </div><hr>
+        </dt>
+    </dl>
+    <div class="FOOTER">
+        <footer>
+            <div class="bottom">
+                <button class="bottom1">留言</button>
+                <button class="bottom2">电话联系</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
